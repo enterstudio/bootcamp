@@ -1,11 +1,12 @@
-Django==1.10.4
+Django==2.2.18
 dj-database-url==0.4.1
 dj-static==0.0.6
-gunicorn==19.6.0
+gunicorn==19.10.0
 Unipath==1.1
 python-decouple==3.0
-Pillow==3.4.2
+Pillow==8.1.0
 Markdown==2.6.7
-bleach==1.5.0
+bleach==3.3.0
 whitenoise==3.2.2
 psycopg2==2.6.2
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
